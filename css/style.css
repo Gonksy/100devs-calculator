@@ -22,18 +22,43 @@
 /*******************************************/
 
 body {
-background-color: rgb(8, 5, 26);
+     background-color: rgb(8, 5, 26);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
 }
+
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+main {
+     background-color: gray;
+     width: 400px;
+     height: 600px;
+     border-radius: 30px;
+}
+
+ul{
+     display: flex;
+}
+
+li {
+     list-style-type: none;
+     background-color: white;
 
 }
 
-footer {
+
+.calculatorDisplay{
+     width: 80%;
+     background-color: white;
+     height: 100px;
+}
+
+.calculatorKeypad {
 
 }
 
